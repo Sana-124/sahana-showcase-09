@@ -25,14 +25,14 @@ const HeroSection = () => {
         
         <div className="animate-fade-in-up animate-stagger-1">
           <h2 className="text-xl sm:text-2xl lg:text-3xl text-white/90 mb-8 font-light">
-            AI & ML Student | Innovation Enthusiast | Problem Solver
+            AI & ML Engineer | Tech Innovator | Data Science Enthusiast
           </h2>
         </div>
         
         <div className="animate-fade-in-up animate-stagger-2">
           <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
             Passionate about artificial intelligence and machine learning with a CGPA of 9.01. 
-            I build innovative solutions that bridge technology and real-world impact.
+            I create cutting-edge solutions that transform data into meaningful insights and drive technological advancement.
           </p>
         </div>
 

@@ -10,6 +10,9 @@ const SkillsSection = () => {
       skills: [
         { name: 'Python', level: 90 },
         { name: 'Java', level: 85 },
+        { name: 'R Program', level: 75 },
+        { name: 'C', level: 80 },
+        { name: 'SQL', level: 85 },
       ]
     },
     {

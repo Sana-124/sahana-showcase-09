@@ -28,6 +28,30 @@ const CertificationsSection = () => {
       credentialId: 'AICTE-JAVA-2023-SP',
       verificationAvailable: true,
       certificateUrl: 'https://drive.google.com/file/d/136G9SM59Dmx_FjYOR3qnM3iKvjrIqno2/view?usp=drivesdk'
+    },
+    {
+      title: 'Getting Started with Enterprise-grade AI in IBM',
+      issuer: 'IBM',
+      year: '2024',
+      type: 'Professional',
+      status: 'Completed',
+      description: 'Comprehensive training on enterprise-grade artificial intelligence solutions and IBM AI technologies, covering implementation strategies and best practices.',
+      skills: ['Enterprise AI', 'IBM Watson', 'AI Strategy', 'Cloud Computing'],
+      credentialId: 'IBM-AI-2024-SP',
+      verificationAvailable: true,
+      certificateUrl: 'https://drive.google.com/file/d/14QsQfzFvOCMAlA6iB9EK5tmMzrsMnFfQ/view?usp=drivesdk'
+    },
+    {
+      title: 'IT-ITeS Sector Skills Council NASSCOM',
+      issuer: 'NASSCOM',
+      year: '2024',
+      type: 'Professional',
+      status: 'Completed',
+      description: 'Industry-recognized certification from NASSCOM covering IT-ITeS sector skills and best practices for software development and technology implementation.',
+      skills: ['IT Services', 'Software Development', 'Industry Standards', 'Technology Implementation'],
+      credentialId: 'NASSCOM-ITITES-2024-SP',
+      verificationAvailable: true,
+      certificateUrl: 'https://drive.google.com/file/d/14Qm8wf5cHuIh6Ojz_O11cwm3e6FheWey/view?usp=drivesdk'
     }
   ];
 
@@ -148,10 +172,6 @@ const CertificationsSection = () => {
               I'm always expanding my skillset through new certifications and learning opportunities. 
               Stay tuned for more credentials as I continue growing in the tech industry.
             </p>
-            <Button variant="gradient" size="lg" className="hover-lift">
-              View All Credentials
-              <ExternalLink className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </div>
       </div>

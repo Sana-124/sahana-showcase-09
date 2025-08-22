@@ -69,10 +69,12 @@ const ProjectsSection = () => {
                         Code
                       </Button>
                     )}
-                    <Button variant="secondary" size="sm" className="hover-lift">
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Demo
-                    </Button>
+                    {project.title !== 'AgriTech Marketplace' && (
+                      <Button variant="secondary" size="sm" className="hover-lift">
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        Demo
+                      </Button>
+                    )}
                   </div>
                 </div>
               </CardHeader>

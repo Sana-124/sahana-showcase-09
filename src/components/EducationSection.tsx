@@ -23,7 +23,7 @@ const EducationSection = () => {
       specialization: 'Physics, Chemistry, Mathematics, Biology (PCMB)',
       institution: 'Pre-University College',
       period: '2019 - 2021',
-      cgpa: 'First Class',
+      cgpa: '90%',
       status: 'Completed',
       highlights: [
         'Strong foundation in science and mathematics',
@@ -34,10 +34,10 @@ const EducationSection = () => {
     },
     {
       degree: 'Secondary School Education',
-      specialization: 'General Education',
+      specialization: 'General Education (ICSE)',
       institution: 'Sandur Girls Residential School',
       period: '2018 - 2019',
-      cgpa: 'Distinction',
+      cgpa: '77%',
       status: 'Completed',
       highlights: [
         'Outstanding academic achievement',
