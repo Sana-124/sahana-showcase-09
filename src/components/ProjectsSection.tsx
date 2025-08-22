@@ -10,14 +10,16 @@ const ProjectsSection = () => {
       description: 'Advanced data visualization and log analysis system that processes large log files to identify patterns, errors, and performance metrics. Features interactive dashboards and real-time monitoring capabilities.',
       technologies: ['Python', 'Data Visualization', 'Pandas', 'Matplotlib'],
       features: ['Real-time log processing', 'Interactive dashboards', 'Pattern recognition', 'Performance metrics'],
-      category: 'Data Analysis'
+      category: 'Data Analysis',
+      githubUrl: 'https://github.com/Sana-124/python-code/blob/main/logfileanalysis.ipynb'
     },
     {
       title: 'Brain Tumor Detection System',
       description: 'ML-based medical imaging system that analyzes MRI scans to detect brain tumors with high accuracy. Utilizes deep learning algorithms and provides detailed diagnostic insights.',
       technologies: ['Machine Learning', 'Python', 'TensorFlow', 'Computer Vision'],
       features: ['MRI scan analysis', 'Deep learning models', 'High accuracy detection', 'Diagnostic insights'],
-      category: 'AI/ML'
+      category: 'AI/ML',
+      githubUrl: 'https://github.com/Sana-124/braintumor-det-codes'
     },
     {
       title: 'AgriTech Marketplace',
@@ -56,10 +58,17 @@ const ProjectsSection = () => {
                     </p>
                   </div>
                   <div className="flex gap-3 flex-shrink-0">
-                    <Button variant="outline" size="sm" className="hover-lift">
-                      <Github className="mr-2 h-4 w-4" />
-                      Code
-                    </Button>
+                    {project.githubUrl && (
+                      <Button 
+                        variant="outline" 
+                        size="sm" 
+                        className="hover-lift"
+                        onClick={() => window.open(project.githubUrl, '_blank')}
+                      >
+                        <Github className="mr-2 h-4 w-4" />
+                        Code
+                      </Button>
+                    )}
                     <Button variant="secondary" size="sm" className="hover-lift">
                       <ExternalLink className="mr-2 h-4 w-4" />
                       Demo
