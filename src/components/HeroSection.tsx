@@ -64,8 +64,11 @@ const HeroSection = () => {
             <Github size={24} />
           </a>
           <a
-            href="mailto:pujarsahana1718@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pujarsahana1718@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white/70 hover:text-white transition-colors duration-200 hover-lift"
+            title="Send Gmail"
           >
             <Mail size={24} />
           </a>
