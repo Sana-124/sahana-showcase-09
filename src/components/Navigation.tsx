@@ -60,7 +60,7 @@ const Navigation = () => {
               variant="gradient" 
               size="sm" 
               className="hover-glow"
-              onClick={() => window.open('https://drive.google.com/file/d/1iTBWD-7JJ0NYXrJM_M_meewGT9cr8iA2/view?usp=drivesdk', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/14Vl5uawov1gk5dKfbwkrKiAuP-QVyxU3/view?usp=drivesdk', '_blank')}
             >
               <Download className="mr-2 h-4 w-4" />
               Resume
@@ -94,7 +94,7 @@ const Navigation = () => {
                   variant="gradient" 
                   size="sm" 
                   className="w-full"
-                  onClick={() => window.open('https://drive.google.com/file/d/1iTBWD-7JJ0NYXrJM_M_meewGT9cr8iA2/view?usp=drivesdk', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/14Vl5uawov1gk5dKfbwkrKiAuP-QVyxU3/view?usp=drivesdk', '_blank')}
                 >
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume

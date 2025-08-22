@@ -25,7 +25,7 @@ const HeroSection = () => {
         
         <div className="animate-fade-in-up animate-stagger-1">
           <h2 className="text-xl sm:text-2xl lg:text-3xl text-white/90 mb-8 font-light">
-            AI & ML Engineer | Tech Innovator | Data Science Enthusiast
+            AI & ML Engineer | Software Developer | Technology Enthusiast
           </h2>
         </div>
         
